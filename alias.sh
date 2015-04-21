@@ -81,3 +81,6 @@ export PS1="\[\033[01;32m\]\H \[\033[0m\]\T\n\[\033[01;34m\]\W \$\[\033[00m\] "
 
 
 alias dfh="df -h"
+
+# DNS
+alias dig="docker run wkruse/dnsutils dig"
