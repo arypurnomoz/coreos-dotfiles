@@ -8,3 +8,4 @@ function install() {
 }
 
 install /home/core
+install /root
