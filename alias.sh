@@ -25,7 +25,7 @@ alias htop="toolbox htop"
 
 # systemctl
 alias sy=systemctl
-alias syr="systemctl restart"
+alias syr="sudo systemctl restart"
 alias sys="systemctl status"
 alias jou="journalctl -u"
 alias jof="journalctl -fu"
