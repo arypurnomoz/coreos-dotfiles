@@ -31,6 +31,7 @@ alias jou="journalctl -u"
 alias jof="journalctl -fu"
 alias jok="journalctl -k"
 alias jfk="journalctl -fk"
+alias jf="journalctl -f"
 
 # docker
 alias dr="docker run --rm -ti" 
