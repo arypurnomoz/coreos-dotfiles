@@ -29,6 +29,8 @@ alias syr="sudo systemctl restart"
 alias sys="systemctl status"
 alias jou="journalctl -u"
 alias jof="journalctl -fu"
+alias jok="journalctl -k"
+alias jfk="journalctl -fk"
 
 # docker
 alias dr="docker run --rm -ti" 
