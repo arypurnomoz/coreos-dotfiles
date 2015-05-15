@@ -11,4 +11,3 @@ function install() {
 
 install /home/core
 install /root
-toolbox yum install -y htop
