@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 DOTFILES=/home/core/dotfiles
 
 function install() {
@@ -9,3 +11,4 @@ function install() {
 
 install /home/core
 install /root
+toolbox yum install -y htop
