@@ -82,7 +82,9 @@ fi`.😡  😡  😡  (%?:${timer_show}s%) 😡  😡  😡
 )
 '
 
-export PS1="\[\033[01;32m\]\H \[\033[0m\]\T\n\[\033[01;34m\]\W \$\[\033[00m\] "
+. /etc/environment
+
+export PS1="\[\033[01;32m\]\H-${COREOS_PUBLIC_IPV4}-${COREOS_PRIVATE_IPV4} \[\033[0m\]\T\n\[\033[01;34m\]\W \$\[\033[00m\] "
 
 
 alias dfh="df -h"
