@@ -44,7 +44,7 @@ function db() {
 }
 alias de="docker exec -ti"
 alias dlg="docker logs"
-alias dlf="docker logs"
+alias dlf="docker logs -f"
 
 function des() {
   docker exec -ti $1 /bin/sh
