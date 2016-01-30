@@ -70,7 +70,6 @@ function drb() {
 
 alias ssh="ssh -v"
 
-
 # etcdctl
 alias etl="etcdctl"
 alias etllr="etcdctl ls --recursive"

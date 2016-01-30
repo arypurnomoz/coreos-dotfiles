@@ -1,1 +1,2 @@
 set noswapfile
+set number
